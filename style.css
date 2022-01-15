@@ -100,6 +100,7 @@ header .banner .banner-info a i {
 	font-weight: 500;
 }
 /* Main area Start */
+/* Collection area start */
 main .container {
 	margin-left: 166px;
 	margin-right: 166px;
@@ -122,8 +123,38 @@ main .container .items {
 	flex-direction: column;
 	padding: 16px;
 }
+
 main .container .items img {
 	width: 100%;
+	height: 100%;
+}
+main .container .items .item-info h1 {
+	color: var(--h-color);
+	font-weight: 400;
+	margin-top: 16px;
+}
+main .container .items .item-info h3 {
+	color: var(--h-color);
+	font-weight: 500;
+	font-size: 24px;
+	margin: 8px 0;
+}
+main .container .items .item-info .stars i {
+	color: orange;
+	font-size: 12px;
+}
+main .container .items .item-info .stars span {
+	color: var(--h-color);
+	font-size: 12px;
+	font-weight: 600;
+	margin-left: 4px;
+}
+main .container .items .item-info p {
+	color: gray;
+	font-weight: 700;
+	font-size: 14px;
+	padding-right: 35%;
+	margin-top: 8px;
 }
 main .container a {
 	float: right;
@@ -132,6 +163,9 @@ main .container a {
 	font-weight: bold;
 	word-spacing: 2px;
 	font-size: 18px;
+	text-decoration: none;
 	padding-right: 48px;
 }
+/* Collection area End */
+
 /* Main area End */
