@@ -19,8 +19,9 @@
 	color: white;
 	font-weight: 600;
 	font-size: 18px;
-	padding: 10px 24px;
+	padding: 8px 28px;
 	border-radius: 24px;
+	border: 3px solid var(--btn-color);
 }
 /* ------------------- */
 
@@ -87,8 +88,48 @@ header .banner .banner-info a {
 	display: inline-block;
 	margin-top: 12px;
 	font-weight: 500;
+	transition: 500ms linear;
+	border: 3px solid var(--btn-color);
+}
+header .banner .banner-info a:hover {
+	background-color: white;
+	color: var(--btn-color);
 }
 header .banner .banner-info a i {
 	margin-left: 4px;
 	font-weight: 500;
+}
+main .container {
+	margin-left: 166px;
+	margin-right: 166px;
+}
+main .container .heading {
+	text-align: center;
+	color: var(--h-color);
+	margin-top: 72px;
+}
+main .collection {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	padding: 48px;
+}
+main .container .items {
+	border-radius: 4px;
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+}
+main .container .items img {
+	width: 100%;
+}
+main .container a {
+	float: right;
+	clear: both;
+	color: var(--btn-color);
+	font-weight: bold;
+	word-spacing: 2px;
+	font-size: 18px;
+	padding-right: 48px;
 }
