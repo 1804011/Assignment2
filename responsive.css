@@ -43,8 +43,18 @@
 	header .container .banner-img img {
 		width: 60%;
 	}
+	main .container {
+		border: 2px solid red;
+		width: 100vw;
+		margin: 60px 0;
+		overflow: hidden;
+	}
+	main .container .collection {
+		grid-template-columns: 1fr;
+		margin: 24px 2px;
+		padding: 12px;
+	}
 
-	main,
 	footer {
 		display: none;
 	}
