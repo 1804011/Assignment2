@@ -99,6 +99,7 @@ header .banner .banner-info a i {
 	margin-left: 4px;
 	font-weight: 500;
 }
+/* Main area Start */
 main .container {
 	margin-left: 166px;
 	margin-right: 166px;
@@ -133,3 +134,4 @@ main .container a {
 	font-size: 18px;
 	padding-right: 48px;
 }
+/* Main area End */
