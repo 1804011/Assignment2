@@ -1,0 +1,46 @@
+/* Mobile Devices */
+@media only screen and (max-width: 760px) {
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	header .container-fluid {
+		display: block;
+		width: 100vw;
+		text-align: center;
+	}
+	header .container-fluid .nav-bar {
+		display: none;
+	}
+	header .container {
+		width: 100vw;
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+	header .banner .banner-info {
+		width: 100%;
+	}
+	header .banner .banner-img {
+		width: 100%;
+	}
+	header .banner .banner-info h1 {
+		font-size: 28px !important;
+		padding: 0;
+		width: 100vw;
+		margin: 0;
+		text-align: center;
+		border: 2px solid red;
+	}
+	header .banner .banner-info p {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	main,
+	footer {
+		display: none;
+	}
+}
+/* --------------------- */
