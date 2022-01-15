@@ -1,0 +1,94 @@
+/* Css Variables */
+:root {
+	--btn-color: #e02c6d;
+	--star: orange;
+	--txt-color: gray;
+	--h-color: #3a3a3a;
+}
+/* ----------------- */
+/* common styles */
+.container-fluid {
+	margin: 16px 120px;
+}
+.container {
+	margin: 0 150px;
+}
+.btn {
+	text-decoration: none;
+	background-color: var(--btn-color);
+	color: white;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 10px 24px;
+	border-radius: 24px;
+}
+/* ------------------- */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	font-family: "Lobster", cursive;
+	font-family: "Poppins", sans-serif;
+}
+header .container-fluid {
+	display: flex;
+	justify-content: space-between;
+}
+header .container-fluid .nav-title {
+	color: var(--h-color);
+	font-weight: 800;
+	font-size: 16px;
+}
+header .container-fluid .nav-bar {
+	display: flex;
+	align-items: center;
+}
+header .container-fluid .nav-bar a {
+	display: block;
+	color: var(--h-color);
+	text-decoration: none;
+	margin-right: 17px;
+	font-weight: 600;
+	font-size: 18px;
+}
+header .container {
+	margin-top: 72px;
+}
+header .banner {
+	display: flex;
+	align-items: center;
+}
+header .banner .banner-info {
+	width: 65%;
+}
+header .banner .banner-img {
+	width: 35%;
+	background-image: url(images/Circle\ design.svg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+}
+header .banner .banner-info .banner-heading {
+	color: var(--h-color);
+	font-size: 52px;
+}
+header .banner .banner-info .para {
+	color: var(--h-color);
+	font-size: 16px;
+	font-weight: bold;
+	padding-right: 30%;
+	margin: 8px 0;
+}
+header .banner .banner-info a {
+	display: inline-block;
+	margin-top: 12px;
+	font-weight: 500;
+}
+header .banner .banner-info a i {
+	margin-left: 4px;
+	font-weight: 500;
+}
